@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=11.0">
+    <title>My Favourite Course Modules</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Favourite Course Modules</h1>
+        <p>Welcome to my profile page. These are my three favourite course modules.</p>
+
+        <p>
+            <a href="#modules">Jump to My favourite Modules</a>
+        </p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student interested in information technology and computer related skills. The following three course modules are my favourites because they help me develope useful knowledge and practical skills.
+        </p>
+    </section>
+
+    <section id="modules">
+        <h2>My Favourite Course Modules</h2>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Course Module</th>
+                    <th>why i like it</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Web Application Development</td>
+                    <td>
+                        I like this module because it teaches me hiw to create websites and web applications using HTML, CSS and otherwe technologies.
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Computer Repair and Assessment</td>
+                    <td>
+                        I like this module because it teaches me how to identify computer problems, repair hardware and maintain computers properly.
+                    </td>
+                </tr>
+
+                </tr>
+                    <td>Computer Literacy</td>
+                    <td>
+                        I like this module because it improves my ability to use computers, manage files, use email and work effectively with digital technologies.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="images">
+        <h2>Learning and technology</h2>
+        
+        <h3> Web Application Development</h3>
+        <img src="images/web-development.jpg"
+             alt="Student learning web application development on a computer"
+             width="400">
+    
+        <h3>Computer Repair</h3>
+        <img src="img/computer-repair.jpg"
+             alt="Student examing computer hardware during a repair"
+             width="400">
+    </section>
+    
+    <section id="resources">
+        <h2>Useful Learning Resources</h2>
+
+        <p>
+            I use online resources to improve my web development knowledge.
+            Visit
+            <a href="https://developer.mozilla.org/"
+               target="_blank"
+               rel="noopener noreferrer">
+               MDN Web Docs
+            </a>
+            to learn more about web technologies.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Favourite Course Modules</p>
+    </footer>
+
+    </body>
+    </html>
