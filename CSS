@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: o;
+    padding: o;
+}
+
+body {
+    font-family: 'Segoe UI', system iu, system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background-color: #f8fafc;
+    color: #1e293b;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+P {
+    font-size: 1rem;
+    color: #475569;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 0 auto 24px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05)
+}
