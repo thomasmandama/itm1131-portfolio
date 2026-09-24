@@ -2,30 +2,207 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.o">
-    <title>Profile Page</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Mandama Charles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU90FeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwlH"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-</head> 
+</head>
 <body>
+      <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+          <div class="container">
+              <a class="navbar-brand fw-bold" href="#">My Profile</a>
+                <button
+                   class="navbar-toggler"
+                   type="button"
+                   data-bs-toggle="collapse"
+                   data-bs-target="#navbarMenu"
+                   aria-controls="navbarMenu"
+                   aria-expanded="false"
+                   aria-label="Toggle Navigation">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+                   <div class="collapse navbar-collapse" id="navbarMenu">
+                       <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                               <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                   </div>
+            </div>
+        </nav>
 
-    <header>
-        <h1>Thomas Mandama Charles</h1>
-        <p>Frontend Developer & UI Designer</p>
-    </header>
+        <section id="home" class="profile-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bold">
+                            Hello, I'm Thomas Mandama Charles
+                        </h1>
+                        <p class="lead">
+                            A web application development student interested in web design, programming, and digital technology. 
+                        </p>
+                        <a href="#projects" class="btn custom-button">
+                            View My Projects
+                        </a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="profile-image">
+                            <span>PROFILE</span>
+                        </div>
+                    </div>
 
-    <main>
-
-        <section class="card">
-            <h2>About Me</h2>
-            <p>Crafting accessible web experiences, Passionate about CSS layout systems and typography.</p>
+                </div>
+            </div>
         </section>
-        
-        <section class="card">
-            <h2>Core Skills</h2>
-            <p>HTML5, Semantic Layouts, CSS Grid & Flexbox</p>
+
+        <section id="about" class="py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-4">About Me</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p class="text-center">
+                            I am learning web application development and building skills in HTML, CSS, JavaScript and CSS Frameworks such as Bootstrap. I believe that clean code should look just as good as the user interface it powers. As a hybrid developer and designer, I don't just build web experiences - I craft them.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </section>
-    </main>
+
+        <section id="projects" class="py-5 projects-section">
+            <div class="container">
+                <h3 class="text-center fw-bold mb-2">
+                    My Projects
+                </h3>
+
+                <p class="text-center text-muted mb-5">
+                    Here are some of the projects I have worked on.
+                </p>
+
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="project-image">
+                                Project 1
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Personal Profile Website
+                                </h3>
+                                <p class="card-text">
+                                    A responsive personal profile website created using HTML and CSS.
+                                </p>
+                                <a href="#" class="btn custom-button">
+                                    View Project
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm project-card">
+                            <div class="project-image">
+                                Project 2
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Business Website
+                                </h3>
+                                <p class="card-text">
+                                    A simple business website designed to display products and services. 
+                                </p>
+                                <a href="#" class="btn custom-button">
+                                    View Project
+                                </a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-md-6 col-lg-4">
+                        <div class=" card h-100 shadow-sm project-card">
+                            <div class="project-image">
+                                Project 3
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Digital Services Website
+                                </h3>
+
+                                <p class="card-text">
+                                    A website for a digital services business offering printing, photocopying, scanning and typesetting.
+                                </p>
+                                <a href="#" class="btn custom-button">
+                                    View Project
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">
+                    Contact Me
+                </h2>
+            </div>
+                    <div class="row justify-content-center">
+                    <div class="col-md-6">
+                          <div class="card shadow-sm">
+                              <div class="card-header custom-card-header">
+                            Contact Information
+                              </div>
+                              <div class="card-body">
+                                <p><strong>Email:</strong>
+                                    thomasmandama318@gmail.com
+                                </p>
+                                <p><strong>Phone:</strong><a href="tel:+256774204444" class="text-decoration-none text-dark">+256 774 204 444</a></p>
+                                <p><strong>Location:</strong>Arua, Uganda</p>
+                                <a href="mailto:thomasmandama318@gmail.com" class="btn custom-button">
+                                  Send Email
+                                </a>
+                             
+                              </div>
+                          </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <footer class="custom-footer text-center py-4">
+            <p class="mb-0">
+                &copy; 2026 Thomas Mandama Charles. All Rights Reserved.
+            </p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+
+        integrity="sha384-YvpcrYf0tY31HB60NNkmXc5s9fDVZLESaAA55NDz0xhy96kcIdslk1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
 
 </body>
 </html>
