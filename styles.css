@@ -1,111 +1,81 @@
-* {
-    box-sizing: border-box;
+.custom-navbar {
+    background-color: lch(96.83% 96.94 103.84);
 }
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: f4f4f4;
-    color: #333;
+.profile-section {
+    padding: 100px 0;
+    background-color: #f8fafc;
 }
 
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-nav {
+.profil-image {
+    width: 220px:
+    height: 220px;
+    margin: auto;
+    border-radius: 50%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 15px 5%;
-}
-
-nav .logo {
+    background-color: #2563eb;
     color: white;
     font-size: 24px;
     font-weight: bold;
+    border: 8px solid #dbeafe
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 25px;
-}
-
-nav ul li {
-    margin: 0;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-nav ul li a.hover {
-    text-decoration: underline;
-}
-
-.project {
-    width: 90%;
-    max-width: 1100px;
-    margin: 40px auto;
-}
-
-.projects h2 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.project-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.profile-section {
+    background-color: rgba(83, 218, 252, 0.333);
 }
 
 .project-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6x rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.project-card img {
-    width: 100%;
-    height: auto;
-    display: block;
+.project-card:hover {
+    transform: translateY(-5PX);
+}
+
+.project-image {
+    height: 180px;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    font-size: 24px:
+    font-weight: bold;
+}
+
+.custom-button {
+    background-color: hwb(66 0% 0%);
+    border-color: hsl(69, 92%, 50%)
+    color: white;
+    padding: 10px 10px;
     border-radius: 6px;
 }
 
-.project-card h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+.custom-button:hover {
+    background-color: #be123c;
+    border-color: #be123c;
+    color: yellow;
 }
 
-.project-card p {
-    line-height: 1.5;
+.custom-card-header {
+    background-color: #172554;
+    color: white;
+    font-weight: bold;
 }
 
-@media (max-width: 600px) {
+.custom-footer {
+    background-color: #172554;
+    color: white;
+}
 
-    nav {
-        flex-direction: column;
-        gap: 15px;
+@media (max-width: 576px) {
+    .profile-section {
+        padding: 60px 0;
     }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .project-gallery {
-        grid-template-columns: 1fr;
+    .profile-image {
+        width: 170px;
+        height: 170px;
+        margin-top: 30px;
     }
 }
